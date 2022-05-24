@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #e5d864ff;
+}
+
+.header{padding: 15px 16px;}
+
+.logo{
+    position: absolute;
+}
+
+.hero-image {
+    background-image: url("images/Stick_Background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
