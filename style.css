@@ -2,12 +2,53 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: #e5d864ff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-.header{padding: 15px 16px;}
+.header {
+    overflow: hidden;
+    padding: 15px 16px;
+    position: relative;
+}
 
-.logo{
-    position: absolute;
+.header a {
+    float: left;
+    color: #502d16ff;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 30px; 
+    line-height: 30px;
+    border-radius: 4px;
+}
+
+.header a:hover {
+      color: #3d2413;
+}
+
+.header-right {
+    float: left;   
+}
+
+.header a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #3d2413; 
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+}
+  
+.header a:hover::before {
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    padding:0px 40px;
+    opacity: 100%;
 }
 
 .hero-image {
