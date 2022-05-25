@@ -13,7 +13,7 @@ body, html {
 
 .header a {
     float: left;
-    color: #502d16ff;
+    color: #502d16;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
@@ -68,8 +68,16 @@ body, html {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
-    color:#502d16ff;
-    padding: 10em 0em 10em;
+    color:#502d16;
+    padding: 11em 0em 10em;
+}
+
+.about a {
+    filter: invert(18%) sepia(7%) saturate(4354%) hue-rotate(340deg) brightness(97%) contrast(94%);
+}
+
+.about a:hover {
+    filter: invert(12%) sepia(16%) saturate(2139%) hue-rotate(341deg) brightness(98%) contrast(91%);
 }
 
 h1 {
@@ -80,10 +88,10 @@ p {
     font-size: 50px;
 }
 
-.itch {
+.youtube {
     padding: 0px 50px 0px 0px;
 }
 
-.youtube {
+.itch {
     padding: 0px 0px 0px 50px;
 }
