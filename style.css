@@ -59,3 +59,31 @@ body, html {
     background-size: cover;
     text-align: center;
 }
+
+.about {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color:#502d16ff;
+    padding: 10em 0em 10em;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 50px;
+}
+
+.itch {
+    padding: 0px 50px 0px 0px;
+}
+
+.youtube {
+    padding: 0px 0px 0px 50px;
+}
