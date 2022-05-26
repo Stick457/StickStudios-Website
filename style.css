@@ -79,7 +79,9 @@ p {
     font-size: 50px;
 }
 
-
+.small {
+    font-size: 20px;
+}
 
 .youtube {
     padding: 100px 50px 0px 0px;
