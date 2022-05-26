@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     background-color: #e5d864ff;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .header {
