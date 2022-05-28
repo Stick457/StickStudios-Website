@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color: #e5d864ff;
+    background-color: #141414;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     scroll-behavior: smooth;
 }
@@ -61,20 +61,12 @@ body, html {
 
 .about {
     text-align: center;
-    color:#502d16;
-}
-
-.about a {
-    filter: invert(18%) sepia(7%) saturate(4354%) hue-rotate(340deg) brightness(97%) contrast(94%);
-}
-
-.about a:hover {
-    filter: invert(12%) sepia(16%) saturate(2139%) hue-rotate(341deg) brightness(98%) contrast(91%);
+    color:#ffd83e;
 }
 
 h1 {
     font-size: 100px;
-}
+}   
 
 p {
     font-size: 50px;
@@ -88,10 +80,36 @@ p {
     padding: 100px 50px 0px 0px;
 }
 
-.itch {
-    padding: 100px 0px 0px 50px;
+.youtube-logo {
+    display: inline-block;
 }
 
+.youtube-logo a {
+    filter: invert(74%) sepia(75%) saturate(475%) hue-rotate(352deg) brightness(104%) contrast(101%);
+}
+
+.youtube-logo a:hover {
+    filter: invert(15%) sepia(78%) saturate(7456%) hue-rotate(359deg) brightness(100%) contrast(110%);
+}
+
+.itch {
+    padding: 100px 0px 0px 50px;
+
+}
+
+.itch-logo {
+    display: inline-block;
+}
+
+.itch-logo a {
+    filter: invert(74%) sepia(75%) saturate(475%) hue-rotate(352deg) brightness(104%) contrast(101%);
+}
+
+.itch-logo a:hover {
+    filter: invert(74%) sepia(89%) saturate(6117%) hue-rotate(332deg) brightness(90%) contrast(91%);
+} 
+
+
 .media {
-    padding: 0px 0px 300px 0px;
+    padding: 0px 0px 350px 0px;
 }
