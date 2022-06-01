@@ -27,7 +27,7 @@ body, html {
 }
 
 .header-right {
-    float: left;   
+    float:left;   
 }
 
 .header a::before {
@@ -66,22 +66,126 @@ body, html {
 
 h1 {
     font-size: 100px;
-}   
+}
 
-p {
+h1 a {
+    -webkit-transition: color 0.15s;
+    transition: color 0.15s;
+}
+
+h1 a:hover {
+    color: #502d16; 
+}
+
+.sub {
     font-size: 50px;
+    margin: 50px 0px;
+}
+
+.sub a {
+    -webkit-transition: color 0.15s;
+    transition: color 0.15s;
+    -webkit-transition: font-size 0.2s;
+    transition: font-size 0.2s;
+}
+
+.sub a:hover{
+    color: #502d16;
+    font-size: 60px;
+    text-transform: uppercase;
+    -webkit-transition: font-size 0.2s;
+    transition: font-size 0.2s;
 }
 
 .small {
     font-size: 20px;
 }
 
+.videos {
+    font-size: 20px;
+}
+
+.videos a {
+    cursor: pointer;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    -webkit-transition: font-size 0.2s;
+    transition: font-size 0.2s;
+}
+
+.videos a:hover{
+    color: #FF0000;
+    font-size: 25px;
+    -webkit-transition: font-size 0.2s;
+    transition: font-size 0.3s;
+    -webkit-transition: font-size 0.2s;
+    transition: font-size 0.2s;
+}
+
+.games {
+    font-size: 20px;
+}
+
+.games a {
+    cursor: pointer;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    -webkit-transition: font-size 0.2s;
+    transition: font-size 0.2s;
+}
+
+.games a:hover{
+    color: #ad61da;
+    font-size: 25px;
+    -webkit-transition: font-size 0.2s;
+    transition: font-size 0.3s;
+}
+
+.bots {
+    font-size: 20px;
+}
+
+.bots a {
+    cursor: pointer;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    -webkit-transition: font-size 0.2s;
+    transition: font-size 0.2s;
+}
+
+.bots a:hover{
+    color: #404EED;
+    font-size: 25px;
+    -webkit-transition: font-size 0.2s;
+    transition: font-size 0.3s;
+}
+
+.wood {
+    font-size: 20px;
+}
+
+.wood a {
+    cursor: pointer;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    -webkit-transition: font-size 0.2s;
+    transition: font-size 0.2s;
+}
+
+.wood a:hover{
+    color: #502d16;
+    font-size: 25px;
+    -webkit-transition: font-size 0.2s;
+    transition: font-size 0.3s;
+}
+
 .youtube {
-    padding: 100px 50px 0px 0px;
+    padding: none;
 }
 
 .youtube-logo {
     display: inline-block;
+    padding: 100px 50px 0px 0px;
 }
 
 .youtube-logo a {
@@ -93,16 +197,16 @@ p {
 }
 
 .itch {
-    padding: 100px 0px 0px 50px;
-
+    padding: none;
 }
 
 .itch-logo {
     display: inline-block;
+    padding: 100px 0px 0px 50px;
 }
 
 .itch-logo a {
-    filter: invert(74%) sepia(75%) saturate(475%) hue-rotate(352deg) brightness(104%) contrast(101%);
+    filter: invert(74%) sepia(75%) saturate(475%) hue-rotate(352deg) brightness(104%) contrast(101%); 
 }
 
 .itch-logo a:hover {
