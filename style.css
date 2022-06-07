@@ -277,9 +277,6 @@ form button {
     width: 250px;
     margin: 2px auto 0;
     border-radius: 15px;
-    
-    -webkit-transition: height 0.2s;
-    transition: height 0.3s;
 
     -webkit-transition: width 0.2s;
     transition: width 0.3s;
@@ -287,11 +284,7 @@ form button {
 
 form button:hover {
     background-color: #5e2083;
-    height: 80px;
     width: 350px;
-
-    -webkit-transition: height 0.2s;
-    transition: height 0.3s;
 
     -webkit-transition: width 0.2s;
     transition: width 0.3s;
