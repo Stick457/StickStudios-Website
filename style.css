@@ -57,6 +57,9 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    overflow: auto;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .about {
@@ -297,3 +300,16 @@ footer {
 .footer-logo {
     padding: 1em;
 }
+
+.progress-section {
+    position: fixed;
+    right: -1010px;
+    top: 5%;
+    width: 60%;
+    height: 93%;
+    display: flex;
+    justify-content: space-between;
+    will-change: transform;
+    transition: .3s ease-out;
+}
+
