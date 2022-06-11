@@ -112,7 +112,6 @@ h1 a {
 }
 
 .videos a {
-    cursor: pointer;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
     -webkit-transition: font-size 0.2s;
@@ -133,7 +132,6 @@ h1 a {
 }
 
 .games a {
-    cursor: pointer;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
     -webkit-transition: font-size 0.2s;
@@ -152,7 +150,6 @@ h1 a {
 }
 
 .bots a {
-    cursor: pointer;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
     -webkit-transition: font-size 0.2s;
@@ -171,7 +168,6 @@ h1 a {
 }
 
 .wood a {
-    cursor: pointer;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
     -webkit-transition: font-size 0.2s;
@@ -224,7 +220,7 @@ h1 a {
 }
 
 .contact {
-text-align: center;
+    text-align: center;
 }
 
 .contact h1{
@@ -301,24 +297,10 @@ footer {
     padding: 1em;
 }
 
-.progress-section {
-    position: fixed;
-    right: -1010px;
-    top: 5%;
-    width: 60%;
-    height: 93%;
-    display: flex;
-    justify-content: space-between;
-    will-change: transform;
-    transition: .3s ease-out;
-}
-
-.progress-bar{
-    position: relative;
-    width: 5px;
-    border: none;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #502d16;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #ffd83e 0%);
+.foot {
+    text-align: center;
+    color: #161515;
+    padding: 0em 0em 1em;
+    margin: 0em;
+    font-size: 20px;
 }
